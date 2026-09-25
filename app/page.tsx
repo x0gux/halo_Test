@@ -1,48 +1,70 @@
-"use client";
+import type { Metadata } from "next";
+import { headers } from "next/headers";
+import { MatchApp } from "@/components/match/MatchApp";
+import { getMatchResult } from "@/lib/calculator";
 
-import { Suspense } from "react";
-import { useSearchParams } from "next/navigation";
-import { useMatchFlow } from "@/hooks/useMatchFlow";
-import { InputScreen } from "@/components/input/InputScreen";
-import { IntroScreen } from "@/components/intro/IntroScreen";
-import { ResultScreen } from "@/components/result/ResultScreen";
+async function getBaseUrl(): Promise<string> {
+  const h = await headers();
+  const host =
+    h.get("x-forwarded-host") ?? h.get("host") ?? "localhost:3000";
+  const proto = h.get("x-forwarded-proto") ?? "http";
+  return `${proto}://${host}`;
+}
 
-function Flow() {
-  const searchParams = useSearchParams();
-  const flow = useMatchFlow(
-    searchParams.get("n1") ?? "",
-    searchParams.get("n2") ?? "",
-  );
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ n1?: string; n2?: string }>;
+}): Promise<Metadata> {
+  const base = await getBaseUrl();
+  const { n1 = "", n2 = "" } = await searchParams;
+  const fallbackOg = `${base}/api/og`;
 
-  if (flow.step === "intro" && !flow.submitted) {
-    return <IntroScreen onStart={flow.start} />;
+  if (!n1.trim() || !n2.trim()) {
+    const title = "할로윈 몬스터 짝꿍 테스트";
+    const description = "이름으로 알아보는 몬스터 짝꿍 궁합 테스트";
+    return {
+      title,
+      description,
+      metadataBase: new URL(base),
+      openGraph: {
+        title,
+        description,
+        images: [{ url: fallbackOg, width: 1200, height: 630 }],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title,
+        description,
+        images: [fallbackOg],
+      },
+    };
   }
 
-  if (flow.step === "result" && flow.submitted) {
-    return (
-      <ResultScreen
-        name1={flow.submitted.n1}
-        name2={flow.submitted.n2}
-        onRetry={flow.retry}
-      />
-    );
-  }
-
-  return (
-    <InputScreen
-      name1={flow.name1}
-      name2={flow.name2}
-      setName1={flow.setName1}
-      setName2={flow.setName2}
-      onSubmit={flow.submit}
-    />
-  );
+  const result = getMatchResult(n1.trim(), n2.trim());
+  const title = `${n1.trim()}와 ${n2.trim()}의 궁합은 ${result.score}%!`;
+  const description = `${result.monster1.name} × ${result.monster2.name} — ${result.chemiTitle}`;
+  const og =
+    `${base}/api/og?n1=${encodeURIComponent(n1.trim())}` +
+    `&n2=${encodeURIComponent(n2.trim())}`;
+  return {
+    title,
+    description,
+    metadataBase: new URL(base),
+    openGraph: {
+      title,
+      description,
+      images: [{ url: og, width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [og],
+    },
+  };
 }
 
 export default function Home() {
-  return (
-    <Suspense fallback={<div className="bg-black min-h-screen" />}>
-      <Flow />
-    </Suspense>
-  );
+  return <MatchApp />;
 }

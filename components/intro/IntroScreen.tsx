@@ -2,6 +2,7 @@ import Image from "next/image";
 import { DisclaimerFooter } from "@/components/common/DisclaimerFooter";
 import { OrangeButton } from "@/components/common/OrangeButton";
 import { StickerTitle } from "@/components/common/StickerTitle";
+import { ParticipantCounter } from "@/components/stats/ParticipantCounter";
 
 export function IntroScreen({ onStart }: { onStart: () => void }) {
   return (
@@ -22,8 +23,11 @@ export function IntroScreen({ onStart }: { onStart: () => void }) {
           <StickerTitle />
         </div>
         <div className="flex-1" />
-        <div className="flex justify-center pb-4">
+        <div className="flex justify-center pb-3">
           <OrangeButton onClick={onStart}>시작하기</OrangeButton>
+        </div>
+        <div className="flex justify-center pb-3 px-4">
+          <ParticipantCounter />
         </div>
         <DisclaimerFooter dark />
       </div>
