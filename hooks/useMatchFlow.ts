@@ -54,7 +54,7 @@ export function useMatchFlow(initialN1: string, initialN2: string) {
 
   const retry = () => {
     setSubmitted(null);
-    setStep("input");
+    setStep("intro");
     clearQueryParams();
   };
 

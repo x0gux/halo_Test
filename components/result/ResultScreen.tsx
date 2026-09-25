@@ -19,7 +19,7 @@ export function ResultScreen({ name1, name2, onRetry }: ResultScreenProps) {
     <div className="flex flex-col h-full overflow-hidden bg-black text-white">
       <StickerTitle width={200} />
 
-      <div className="flex min-h-0 shrink flex-row justify-center gap-8 px-8 pt-6">
+      <div className="flex min-h-0 shrink flex-row justify-center gap-8 px-8 pt-6 [@media(max-height:720px)]:pt-3">
         <MonsterCard role="상대방" monster={result.monster1} />
         <MonsterCard role="나" monster={result.monster2} />
       </div>

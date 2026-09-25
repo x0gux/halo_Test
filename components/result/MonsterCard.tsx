@@ -14,8 +14,8 @@ export function MonsterCard({ role, monster }: MonsterCardProps) {
 
   return (
     <div className="flex min-h-0 flex-1 flex-col items-center">
-      <p className="shrink-0 text-[18px] font-black">{role}</p>
-      <p className="mt-1 shrink-0 text-[24px] font-black text-[#ff9d00]">
+      <p className="shrink-0 text-[18px] font-black [@media(max-height:720px)]:text-[16px]">{role}</p>
+      <p className="mt-1 shrink-0 text-[24px] font-black text-[#ff9d00] [@media(max-height:720px)]:text-[20px]">
         {monster.name}
       </p>
       <div className="relative mt-2 h-[150px] min-h-0 w-full shrink">
