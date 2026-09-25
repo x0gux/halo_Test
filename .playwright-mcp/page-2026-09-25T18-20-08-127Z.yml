@@ -1,0 +1,30 @@
+- generic [active] [ref=f2e1]:
+  - main [ref=f2e2]:
+    - generic [ref=f2e29]:
+      - img "할로윈 몬스터 짝꿍 테스트" [ref=f2e31]
+      - generic [ref=f2e32]:
+        - generic [ref=f2e33]:
+          - paragraph [ref=f2e34]: 상대방
+          - paragraph [ref=f2e35]: 드라큘라
+          - img "드라큘라" [ref=f2e38]
+          - paragraph [ref=f2e39]: 완벽주의, 예민함
+        - generic [ref=f2e40]:
+          - paragraph [ref=f2e41]: 나
+          - paragraph [ref=f2e42]: 미라
+          - generic [ref=f2e43]: 🧻
+          - paragraph [ref=f2e46]: 집착, 애정결핍
+      - paragraph [ref=f2e47]:
+        - text: 우리의 궁합은
+        - generic [ref=f2e48]: 18%
+        - text: 입니다!
+      - generic [ref=f2e49]:
+        - paragraph [ref=f2e50]: 미지의 어둠 케미
+        - paragraph [ref=f2e51]: 드라큘라(완벽주의, 예민함)와 미라(집착, 애정결핍)의 만남! "각도 1도만 틀어져도 신경 쓰이거든?"라는 드라큘라와 "절대 안 풀어줄 거야, 평생 내 곁에 있어."라는 미라는 미지의 어둠 케미 케미로 18%의 궁합을 자랑합니다.
+        - paragraph [ref=f2e52]: ⚠️ 어둠 속에서도 서로의 등불이 되어주세요. 연락은 자주!
+        - paragraph [ref=f2e53]: “각도 1도만 틀어져도 신경 쓰이거든?” / “절대 안 풀어줄 거야, 평생 내 곁에 있어.”
+      - generic [ref=f2e54]:
+        - button "링크 복사 / 공유하기" [ref=f2e55]
+        - button "다시 하기" [ref=f2e56]
+      - paragraph [ref=f2e58]: 모든데이터는 일회용으로 서버에 저장되지않습니다!
+  - button "Open Next.js Dev Tools" [ref=f2e24] [cursor=pointer]
+  - alert [ref=f2e28]

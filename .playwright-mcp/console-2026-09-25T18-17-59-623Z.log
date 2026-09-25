@@ -1,0 +1,47 @@
+[     226ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     341ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   24918ms] [WARNING] Image with src "http://localhost:3000/title.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   93789ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   93799ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   99220ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   99226ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   99273ms] [WARNING] Image with src "http://localhost:3000/title.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  127653ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/image?url=%2Fmonsters%2Fmummy.png&w=256&q=75:0
+[  249940ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  249983ms] [LOG] [Fast Refresh] done in 11ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250075ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250113ms] [LOG] [Fast Refresh] done in 4ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250174ms] [LOG] [Fast Refresh] done in 4ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250192ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250228ms] [LOG] [Fast Refresh] done in 3ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250274ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250310ms] [LOG] [Fast Refresh] done in 3ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250418ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250452ms] [LOG] [Fast Refresh] done in 3ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250501ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250535ms] [LOG] [Fast Refresh] done in 3ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250571ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250607ms] [LOG] [Fast Refresh] done in 3ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250631ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  250667ms] [LOG] [Fast Refresh] done in 3ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  262289ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  262324ms] [LOG] [Fast Refresh] done in 2ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  273348ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  273354ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  380159ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  380221ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  381226ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  382230ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  383234ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  384239ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  385245ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  390254ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  395257ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  400261ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  405264ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  410273ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  415279ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  420286ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=_miec_8dnRGVLpW8ZMIcV' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  420411ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  420429ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=UalPlDiS2yc05sK_QFCui' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  421438ms] [ERROR] WebSocket connection to 'ws://192.168.219.141:3000/_next/hmr?id=UalPlDiS2yc05sK_QFCui' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.219.141:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348

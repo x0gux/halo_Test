@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e24]:
+      - img "할로윈 몬스터 짝꿍 테스트" [ref=e26]
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]: 상대방의 이름
+          - textbox [ref=e30]
+        - generic [ref=e32]:
+          - generic [ref=e33]: 내 이름
+          - textbox [ref=e34]
+        - button "알아보기" [disabled] [ref=e37]
+      - paragraph [ref=e38]: 모든데이터는 일회용으로 서버에 저장되지않습니다!
+  - button "Open Next.js Dev Tools" [ref=e19] [cursor=pointer]
+  - alert [ref=e23]

@@ -1,0 +1,7 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e6]:
+      - img "할로윈 몬스터 짝꿍 테스트" [ref=e9]
+      - button "시작하기" [ref=e12]
+      - paragraph [ref=e13]: 모든데이터는 일회용으로 서버에 저장되지않습니다!
+  - button "Open Next.js Dev Tools" [ref=e19] [cursor=pointer]
