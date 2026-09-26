@@ -88,23 +88,23 @@ export async function GET(req: NextRequest) {
 
   const result = getMatchResult(n1, n2);
   const [img1, img2] = await Promise.all([
-    monsterPng(result.monster1.imagePath, 240),
-    monsterPng(result.monster2.imagePath, 240),
+    monsterPng(result.monster1.imagePath, 300),
+    monsterPng(result.monster2.imagePath, 300),
   ]);
 
   const overlay = shell(
-    text(600, 100, 44, "#ff9d00", "할로윈 몬스터 짝꿍 테스트", true) +
-      text(600, 330, 130, "#ff9d00", `${result.score}%`, true) +
-      text(290, 435, 34, "#ffffff", `${n1.slice(0, 8)} · ${result.monster1.name}`) +
-      text(910, 435, 34, "#ffffff", `${n2.slice(0, 8)} · ${result.monster2.name}`) +
-      text(600, 545, 42, "#ffffff", result.chemiTitle),
+    text(600, 105, 56, "#ff9d00", "할로윈 몬스터 짝꿍 테스트", true) +
+      text(600, 350, 150, "#ff9d00", `${result.score}%`, true) +
+      text(290, 470, 40, "#ffffff", `${n1.slice(0, 8)} · ${result.monster1.name}`) +
+      text(910, 470, 40, "#ffffff", `${n2.slice(0, 8)} · ${result.monster2.name}`) +
+      text(600, 575, 52, "#ffffff", result.chemiTitle),
   );
 
   const layers: { input: Buffer; left?: number; top?: number }[] = [
     { input: overlay },
   ];
-  if (img1 != null) layers.push({ input: img1, left: 170, top: 150 });
-  if (img2 != null) layers.push({ input: img2, left: 790, top: 150 });
+  if (img1 != null) layers.push({ input: img1, left: 140, top: 140 });
+  if (img2 != null) layers.push({ input: img2, left: 760, top: 140 });
 
   const png = await base.composite(layers).png().toBuffer();
   return new Response(new Uint8Array(png), {

@@ -40,13 +40,13 @@ export function ShareButtons({
     <div className="flex gap-3 justify-center px-8 mt-4 [@media(max-height:720px)]:mt-3">
       <button
         onClick={handleShare}
-        className="flex-1 py-3 rounded-lg bg-[#ff9d00] hover:bg-[#ffae26] text-white text-[18px] font-black transition-colors [@media(max-height:720px)]:py-2 [@media(max-height:720px)]:text-[16px]"
+        className="flex-1 py-3 rounded-lg bg-[#ff9d00] hover:bg-[#ffae26] text-white text-[19px] font-black transition-colors [@media(max-height:720px)]:py-2 [@media(max-height:720px)]:text-[16px]"
       >
         {copied ? "복사됨! ✓" : "링크 복사 / 공유하기"}
       </button>
       <button
         onClick={onRetry}
-        className="flex-1 py-3 rounded-lg border border-white/30 hover:bg-white/10 text-white text-[18px] font-black transition-colors [@media(max-height:720px)]:py-2 [@media(max-height:720px)]:text-[16px]"
+        className="flex-1 py-3 rounded-lg border border-white/30 hover:bg-white/10 text-white text-[19px] font-black transition-colors [@media(max-height:720px)]:py-2 [@media(max-height:720px)]:text-[16px]"
       >
         다시 하기
       </button>

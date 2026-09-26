@@ -46,7 +46,7 @@ export async function generateMetadata({
   const description = `${result.monster1.name} × ${result.monster2.name} — ${result.chemiTitle}`;
   const og =
     `${base}/api/og?n1=${encodeURIComponent(n1.trim())}` +
-    `&n2=${encodeURIComponent(n2.trim())}`;
+    `&n2=${encodeURIComponent(n2.trim())}&v=2`;
   return {
     title,
     description,
